@@ -19,9 +19,8 @@
 <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>
 <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Allure.svg" width="50" height="50"  alt="Allure"/></a>
 <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
-<a><img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Allure_TO.svg" width="50" height="50"  alt="Allure TestOps"/></a>
 <a><img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
-<a><img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Rest-Assured.svg" width="50" height="50"  alt="Rest-Assured"/></a>
+
 </p>
 
 ## :bookmark: Запуск тестов из терминала
