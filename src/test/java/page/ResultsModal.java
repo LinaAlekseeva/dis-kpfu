@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class ResultsModal {
     private SelenideElement containerNameSearch= $(".container");
     private SelenideElement moduleDescription= $(".page-content.container");
-    public void verifyModalAppears() {
+    public void verifyModalAppears(String value) {
         moduleDescription.should(appear);
         moduleDescription.shouldHave(text("Описание модуля"));
     }
