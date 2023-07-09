@@ -1,0 +1,16 @@
+{
+  "base": {
+    "logo": "",
+    "project": "dis.kpfu.ru",
+    "comment": "UI Autotests for dis.kpfu.ru",
+    "reportLink": "https://jenkins.autotests.cloud",
+    "language": "ua",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6281383727:AAGkfPDAj6OGTn4c4i89QojBBnrxp6Ub6qQ",
+    "chat": "-865149225",
+    "replyTo": ""
+  }
+}
