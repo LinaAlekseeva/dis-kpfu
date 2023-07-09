@@ -7,7 +7,7 @@
 - [Технологии и инструменты](#bookmark-технологии-и-инструменты)
 - [Запуск из терминала](#bookmark-запуск-тестов-из-терминала)
 - [Сборка в Jenkins](#bookmark--jenkins--job-)
-- [Баг-репорты в Jira](#bookmark--баг-репорты-в-jira)
+- [Тестовая документация в Jira](#bookmark--тестовая-документация-в-jira)
 - [Telegram отчет](#bookmark--отчет-в-telegram)
 - [Allure отчет](#bookmark--отчет-в-allure-report)
 
