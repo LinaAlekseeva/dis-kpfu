@@ -7,7 +7,10 @@
 - [Технологии и инструменты](#bookmark-технологии-и-инструменты)
 - [Запуск из терминала](#bookmark-запуск-тестов-из-терминала)
 - [Сборка в Jenkins](#bookmark--jenkins--job-)
+- [Баг-репорты в Jira](#bookmark--баг-репорты-в-jira)
+- [Telegram отчет](#bookmark--отчет-в-telegram)
 - [Allure отчет](#bookmark--отчет-в-allure-report)
+
 
 ## :bookmark: Технологии и инструменты
 <p align="center">
@@ -30,7 +33,14 @@ clean test
 ```
 ## :bookmark: <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/dis-kpfu/"> job </a> 
 
+## :bookmark: <img src="https://cdn-icons-png.flaticon.com/512/5968/5968875.png" width="25" height="25"  alt="Jira"/></a> Jira <a target="_blank" href=" "> Jira </a> 
+
+
+## :bookmark: <img src="https://pngimg.com/uploads/telegram/small/telegram_PNG9.png" width="25" height="25"  alt="Telegram"/></a> Telegram <a target="_blank" href="    "> </a> 
+
+
 ## :bookmark: <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/dis-kpfu/allure/">Allure report</a>
+
 
 ### Обзор сборки
 <p align="center">
@@ -46,3 +56,4 @@ clean test
 <p align="center">
 <img title="Allure Graphs" src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/screens/graphs.jpg">
 </p>
+
