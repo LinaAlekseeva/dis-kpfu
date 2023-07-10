@@ -20,11 +20,8 @@ public class Container extends TestBase {
             open("/");
             containerPage.openContainer()
                     .openPagePersonalAccount()
-                    .openContainer()
                     .openPageServiceDesk()
-                    .openContainer()
                     .openPageApplications()
-                    .openContainer()
                     .openPageSeeAll();
 
         });

@@ -10,6 +10,7 @@ public class ContainerPage {
     private SelenideElement serviceDesk= $("#menu-item-689");
     private SelenideElement applications= $("#menu-item-692");
     private SelenideElement seeAll = $(".menu-item/menu-item-readmore");
+    private SelenideElement error = $(".error404.wp-embed-responsive");
     public ContainerPage openContainer() {
         containerGet.click();
         return this;
@@ -20,16 +21,29 @@ public class ContainerPage {
     }
     public ContainerPage openPageServiceDesk() {
         serviceDesk.click();
+        personalAccount.click();
         return this;
     }
     public ContainerPage openPageApplications() {
         applications.click();
+        personalAccount.click();
         return this;
     }
     public ContainerPage openPageSeeAll() {
 
             seeAll.click();
+            personalAccount.click();
+            error.getClass();
+        return this;
+    }
 
-            return this;
+    public ContainerPage verifyModalAppears() {
+        ResultsModal.verifyModalAppears();
+        return this;
+    }
+    public ContainerPage verifyResult (String key, String value) {
+        ResultsModal.verifyResult(key, value);
 
-}}
+        return this;
+    }
+}
