@@ -1,13 +1,16 @@
 # Проект по автоматизации тестирования для КФУ 
 <p align="left">
-<a href="https://dis.kpfu.ru/"><img src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/chrome_2bLCSRJGD6.png" /></a>
+<a href="https://dis.kpfu.ru/"><img src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/chrome_XDGojVYKmK.png" /></a>
 </p>
 
 ## :card_file_box: Содержание
 - [Технологии и инструменты](#bookmark-технологии-и-инструменты)
 - [Запуск из терминала](#bookmark-запуск-тестов-из-терминала)
 - [Сборка в Jenkins](#bookmark--jenkins--job-)
+- [Тестовая документация в Jira](#bookmark--тестовая-документация-в-jira)
+- [Telegram отчет](#bookmark--отчет-в-telegram)
 - [Allure отчет](#bookmark--отчет-в-allure-report)
+
 
 ## :bookmark: Технологии и инструменты
 <p align="center">
@@ -30,7 +33,14 @@ clean test
 ```
 ## :bookmark: <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/dis-kpfu/"> job </a> 
 
+## :bookmark: <img src="https://e7.pngegg.com/pngimages/232/650/png-clipart-blue-collage-frame-trello-logo-icons-logos-emojis-tech-companies.png" width="25" height="25"  alt="Trello"/></a> Trello <a target="_blank" href="https://trello.com/invite/b/Q36PZxWA/ATTI5e9a4017c806aa7dc79cdb1f55ae1beeB1DDA21E/diskpfuru"> Jira </a> 
+
+
+## :bookmark: <img src="https://pngimg.com/uploads/telegram/small/telegram_PNG9.png" width="25" height="25"  alt="Telegram"/></a> Telegram <a target="_blank" href="    "> </a> 
+
+
 ## :bookmark: <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/dis-kpfu/allure/">Allure report</a>
+
 
 ### Обзор сборки
 <p align="center">
@@ -46,3 +56,4 @@ clean test
 <p align="center">
 <img title="Allure Graphs" src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/screens/graphs.jpg">
 </p>
+
