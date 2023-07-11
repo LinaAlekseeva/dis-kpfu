@@ -40,7 +40,7 @@ public class Container extends TestBase {
                     .verifyResults(applications);
         });
 
-        step("Тест failed на модуль: «Смотреть все»", () -> {
+        step("Тест failed 404 ошибка на модуль: «Смотреть все»", () -> {
             open("/");
             containerPage.openContainer()
                     .openPageSeeAll()
