@@ -24,9 +24,10 @@ dependencies {
             "org.seleniumhq.selenium:selenium-java:3.141.59",
             "org.junit.jupiter:junit-jupiter-api:5.8.1",
             "io.github.bonigarcia:webdrivermanager:5.2.1",
-            "org.aeonbits.owner:owner:1.0.12",
             "org.assertj:assertj-core:3.24.2",
             "io.qameta.allure:allure-selenide:$allureVersion",
+            "org.aeonbits.owner:owner-java8:1.0.12"
+
     )
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.1')
 }
@@ -48,7 +49,7 @@ test {
     useJUnitPlatform()
 }
 
-task containerTest_test(type: Test) {
+task container_test(type: Test) {
     useJUnitPlatform {
         includeTags("containerTest")
     }

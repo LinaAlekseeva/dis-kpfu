@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 public class Container extends TestBase {
 
     @Test
-    @Tag("containerTest")
+    @Tag("container")
     @DisplayName("Successful open")
     @Owner("Lina Alekseeva")
     void containerSuccessfulTest() {
@@ -43,7 +43,7 @@ public class Container extends TestBase {
     }
 
     @Test
-    @Tag("containerTest")
+    @Tag("container")
     @DisplayName("Failed open")
     @Owner("Lina Alekseeva")
     void containerFailedTest() {
