@@ -2,8 +2,9 @@ package tests;
 
 
 import io.qameta.allure.Owner;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Tags;
+
 import org.junit.jupiter.api.Test;
 
 
@@ -13,26 +14,45 @@ import static io.qameta.allure.Allure.step;
 public class Container extends TestBase {
 
     @Test
-    @Tags({@Tag("BLOCKER"), @Tag("UI_TEST")})
+    @Tag("containerTest")
+    @DisplayName("Successful open")
     @Owner("Lina Alekseeva")
-    void containerTest() {
-        step("Проверить ссылки в container", () -> {
+    void containerSuccessfulTest() {
+        step("Личный кабинет сотрудника", () -> {
             open("/");
             containerPage.openContainer()
                     .openPagePersonalAccount()
                     .verifyResultsModalAppears()
-                    .verifyResults(personalAccount)
+                    .verifyResults(personalAccount);
+        });
+        step("Модуль «Service Desk»", () -> {
+            open("/");
+            containerPage.openContainer()
                     .openPageServiceDesk()
                     .verifyResultsModalAppears()
-                    .verifyResults(serviceDesk)
+                    .verifyResults(serviceDesk);
+        });
+        step("Модуль «Заявки на IT-услуги»", () -> {
+            open("/");
+            containerPage.openContainer()
                     .openPageApplications()
                     .verifyResultsModalAppears()
-                    .verifyResults(applications)
+                    .verifyResults(applications);
+        });
+
+    }
+    @Test
+    @Tag("containerTest")
+    @DisplayName("Failed open")
+    @Owner("Lina Alekseeva")
+    void containerFailedTest() {
+        step("Тест на модуль: «Смотреть все»", () -> {
+            open("/");
+            containerPage.openContainer()
                     .openPageSeeAll()
                     .verifyResultsModalAppears()
                     .verifyResults(seeAll);
-
-
         });
+        }
     }
-}
+

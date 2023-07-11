@@ -12,6 +12,8 @@ public class TestBase {
     String serviceDesk ="Модуль «Service Desk»";
     String applications ="Модуль «Заявки на IT-услуги»";
     String seeAll ="Смотреть все";
+
+
     @BeforeAll
     static void setConfigurationParameters() {
 
