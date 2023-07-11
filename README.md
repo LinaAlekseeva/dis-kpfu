@@ -33,7 +33,7 @@ clean test
 ```
 ## :bookmark: <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/dis-kpfu/"> job </a> 
 
-## :bookmark: <img src="https://e7.pngegg.com/pngimages/232/650/png-clipart-blue-collage-frame-trello-logo-icons-logos-emojis-tech-companies.png" width="25" height="25"  alt="Trello"/></a> Trello <a target="_blank" href="https://trello.com/invite/b/Q36PZxWA/ATTI5e9a4017c806aa7dc79cdb1f55ae1beeB1DDA21E/diskpfuru"> Jira </a> 
+## :bookmark: <img src="https://e7.pngegg.com/pngimages/232/650/png-clipart-blue-collage-frame-trello-logo-icons-logos-emojis-tech-companies.png" width="25" height="25"  alt="Trello"/></a> Trello <a target="_blank" href="https://trello.com/invite/b/Q36PZxWA/ATTI5e9a4017c806aa7dc79cdb1f55ae1beeB1DDA21E/diskpfuru">  Trello </a>
 
 
 ## :bookmark: <img src="https://pngimg.com/uploads/telegram/small/telegram_PNG9.png" width="25" height="25"  alt="Telegram"/></a> Telegram <a target="_blank" href="    "> </a> 
