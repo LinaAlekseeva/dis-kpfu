@@ -41,6 +41,7 @@ public class Container extends TestBase {
         });
 
     }
+
     @Test
     @Tag("containerTest")
     @DisplayName("Failed open")
@@ -53,6 +54,6 @@ public class Container extends TestBase {
                     .verifyResultsModalAppears()
                     .verifyResults(seeAll);
         });
-        }
     }
+}
 
