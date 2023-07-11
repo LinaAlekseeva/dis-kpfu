@@ -40,14 +40,7 @@ public class Container extends TestBase {
                     .verifyResults(applications);
         });
 
-    }
-
-    @Test
-    @Tag("container")
-    @DisplayName("Failed open")
-    @Owner("Lina Alekseeva")
-    void containerFailedTest() {
-        step("Тест на модуль: «Смотреть все»", () -> {
+        step("Тест failed на модуль: «Смотреть все»", () -> {
             open("/");
             containerPage.openContainer()
                     .openPageSeeAll()
