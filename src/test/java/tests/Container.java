@@ -20,17 +20,19 @@ public class Container extends TestBase {
             open("/");
             containerPage.openContainer()
                     .openPagePersonalAccount()
+                    .verifyResultsModalAppears()
+                    .verifyResults(personalAccount)
                     .openPageServiceDesk()
+                    .verifyResultsModalAppears()
+                    .verifyResults(serviceDesk)
                     .openPageApplications()
-                    .openPageSeeAll();
+                    .verifyResultsModalAppears()
+                    .verifyResults(applications)
+                    .openPageSeeAll()
+                    .verifyResultsModalAppears()
+                    .verifyResults(seeAll);
 
-        });
-        step("Результат проверки", () -> {
-            resultsModal.verifyModalAppears()
-                    .verifyResult(personalAccount)
-                    .verifyResult(serviceDesk)
-                    .verifyResult(applications)
-                    .verifyResult(seeAll);
+
         });
     }
 }

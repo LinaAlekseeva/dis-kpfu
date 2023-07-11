@@ -5,11 +5,9 @@ import config.WebDriverConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.BeforeAll;
 import page.ContainerPage;
-import page.ResultsModal;
 
 public class TestBase {
     public ContainerPage containerPage = new ContainerPage();
-    public ResultsModal resultsModal = new ResultsModal();
     String personalAccount ="Личный кабинет сотрудника";
     String serviceDesk ="Модуль «Service Desk»";
     String applications ="Модуль «Заявки на IT-услуги»";
