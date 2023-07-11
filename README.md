@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования для КФУ 
 <p align="left">
-<a href="https://dis.kpfu.ru/"><img src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/chrome_XDGojVYKmK.png" /></a>
+<a href="https://dis.kpfu.ru/"><img src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/kpfu.png" /></a>
 </p>
 
 ## :card_file_box: Содержание
