@@ -16,7 +16,7 @@ public class ContainerPage {
     private SelenideElement personalAccount= $("#menu-item-690");
     private SelenideElement serviceDesk= $("#menu-item-689");
     private SelenideElement applications= $("#menu-item-692");
-    private SelenideElement seeAll = $(".menu-item/menu-item-readmore");
+    private SelenideElement seeAll = $(".menu-item.menu-item-readmore");
     private SelenideElement error = $(".error404.wp-embed-responsive");
     private SelenideElement moduleDescription = $(".page-content.container h1");
     private SelenideElement containerNameSearch = $(".container h1");
@@ -42,7 +42,6 @@ public class ContainerPage {
     public ContainerPage openPageSeeAll() {
 
             seeAll.click();
-
             error.getClass();
         return this;
     }
