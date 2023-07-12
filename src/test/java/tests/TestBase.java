@@ -10,6 +10,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import page.ContainerPage;
 
 
@@ -21,10 +23,22 @@ public class TestBase {
         String applications ="Модуль «Заявки на IT-услуги»";
         String seeAll ="Поиск сервиса: Для сотрудников";
     @BeforeAll
-    static void setUp() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        WebDriverProvider.config();
+    static void beforeAll() {
+        Configuration.baseUrl = System.getProperty("baseUrl" ,"https://demoqa.com");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
+        Configuration.remote = System.getProperty("remote", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+        Configuration.browserCapabilities = capabilities;
     }
+    @BeforeEach
+    void addListenerAndOpenPage() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
+
 
     @AfterEach
     void addAttachments() {
@@ -32,6 +46,6 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
-        Selenide.closeWebDriver();
+        Selenide.closeWindow();
     }
 }
