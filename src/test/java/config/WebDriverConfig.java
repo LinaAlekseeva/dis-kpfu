@@ -4,7 +4,7 @@ import org.aeonbits.owner.Config;
 
 public interface WebDriverConfig extends Config {
 
-    @DefaultValue("https://dis.kpfu.ru/")
+    @DefaultValue("https://dis.kpfu.ru")
     String baseUrl();
 
     @DefaultValue("chrome")
