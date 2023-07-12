@@ -22,7 +22,7 @@ public class TestBase {
         String seeAll ="Поиск сервиса: Для сотрудников";
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = System.getProperty("baseUrl" ,"https://demoqa.com");
+        Configuration.baseUrl = System.getProperty("baseUrl" ,"https://dis.kpfu.ru");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
