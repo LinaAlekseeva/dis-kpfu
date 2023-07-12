@@ -44,7 +44,7 @@ public class Container extends TestBase {
             open("/");
             containerPage.openContainer()
                     .openPageSeeAll()
-                    .verifyResultsModalAppears()
+                    .verifyResultsModalAppearsSeeAll()
                     .verifyResults(seeAll);
         });
     }

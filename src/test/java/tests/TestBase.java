@@ -20,7 +20,7 @@ public class TestBase {
         String personalAccount ="Личный кабинет сотрудника";
         String serviceDesk ="Модуль «Service Desk»";
         String applications ="Модуль «Заявки на IT-услуги»";
-        String seeAll ="Смотреть все";
+        String seeAll ="Поиск сервиса: Для сотрудников";
         @BeforeAll
         static void beforeAll() {
 
