@@ -10,7 +10,7 @@ def selenideVersion = "6.13.0",
     jUnitVersion = "5.9.3",
     slf4jVersion = "2.0.7",
     jetbrainsVersion = "23.0.0"
-def allureVersion = '2.21.0'
+
 
 repositories {
     mavenCentral()
@@ -24,28 +24,12 @@ dependencies {
             "org.seleniumhq.selenium:selenium-java:3.141.59",
             "org.junit.jupiter:junit-jupiter-api:5.8.1",
             "io.github.bonigarcia:webdrivermanager:5.2.1",
-            "org.assertj:assertj-core:3.24.2",
-            "io.qameta.allure:allure-selenide:$allureVersion",
-            "org.aeonbits.owner:owner-java8:1.0.12",
-            "io.qameta.allure:allure-selenide:2.17.3"
-
+            "org.aeonbits.owner:owner:1.0.12",
+            "org.assertj:assertj-core:3.24.2"
     )
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.1')
 }
 
-compileJava {
-    options.encoding = 'UTF-8'
-}
-tasks.withType(Test) {
-    systemProperties(System.getProperties())
-
-    testLogging {
-        lifecycle {
-            events "started", "skipped", "failed", "standard_error", "standard_out"
-            exceptionFormat "short"
-        }
-    }
-}
 compileJava {
     options.encoding = 'UTF-8'
 }
@@ -55,10 +39,5 @@ compileTestJava {
 
 test {
     useJUnitPlatform()
-}
-
-task container_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("containerTest")
-    }
+    systemProperties(System.getProperties())
 }
