@@ -46,16 +46,16 @@ clean test
 
 ### Обзор сборки
 <p align="center">
-<img title="Allure Overview Dashboard" src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/screens/overview.jpg">
+<img title="Allure Overview Dashboard" src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/overview.png">
 </p>
 
 ### Тесты
 <p align="center">
-<img title="Allure Suites" src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/screens/tests.jpg">
+<img title="Allure Suites" src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/tests.png">
 </p>
 
 ### :bar_chart: Графики
 <p align="center">
-<img title="Allure Graphs" src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/screens/graphs.jpg">
+<img title="Allure Graphs" src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/graphs.png">
 </p>
 
