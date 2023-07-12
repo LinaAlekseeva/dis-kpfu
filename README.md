@@ -38,8 +38,6 @@ clean test
 <img src="https://github.com/LinaAlekseeva/dis-kpfu/blob/main/src/test/resources/Trello.png"/></a>
 </p>
 
-## :bookmark: <img src="https://pngimg.com/uploads/telegram/small/telegram_PNG9.png" width="25" height="25"  alt="Telegram"/></a> Telegram <a target="_blank" href="    "> </a> 
-
 
 ## :bookmark: <img src="https://github.com/LinaAlekseeva/rest-api-reqres/blob/main/src/test/resources/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/dis-kpfu/allure/">Allure report</a>
 
